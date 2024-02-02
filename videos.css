@@ -1,0 +1,31 @@
+.flexbox-container{
+    display: grid;
+    width: 60%;
+    height: 20%;
+    column-gap: 10px;
+    padding: 25px;
+    align-content: center;
+    float: left;
+    margin-top: 7%;
+    row-gap: 20px;
+    z-index: 1;
+}
+            
+.flexbox-item1{
+    grid-column: 1;
+}
+.flexbox-item2{
+    grid-column: 2;
+}
+.flexbox-item3{
+    grid-column: 1;
+}
+.flexbox-item4{
+    grid-column: 2;
+}
+iframe{
+    border: 0;
+}
+.man{
+    z-index: 2;
+}
